@@ -1,0 +1,56 @@
+@import './base/constants/color';
+@import './base/normalize';
+@import './base/reset';
+@import './mixins/flexbox';
+@import './mixins/position';
+
+.first-section {
+    background-color: $primary;
+    h1,
+    p {
+        text-align: center;
+    }
+}
+
+.title-white {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $white;
+    line-height: 1.313rem;
+    letter-spacing: 0.15 px;
+}
+
+.desc-white {
+    font-size: 0.875rem;
+    color: $white;
+    letter-spacing: 0.15 px;
+    line-height: 1.313rem;
+}
+
+.title-black {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $black;
+    line-height: 1.313rem;
+    letter-spacing: 0.15 px;
+}
+
+.desc-black {
+    font-size: 0.875rem;
+    color: $black;
+    letter-spacing: 0.15 px;
+    line-height: 1.313rem;
+}
+
+.button-center {
+    @include column-flexbox();
+    button {
+        width: 12.563rem;
+        height: 3rem;
+        background-color: $white;
+        border-radius: 25.7143px;
+    }
+    img {
+        height: 3.5rem;
+    }
+}
