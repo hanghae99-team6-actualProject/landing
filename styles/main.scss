@@ -5,15 +5,17 @@
 @import './mixins/position';
 
 section {
-    padding: 2rem 0;
+    padding: 3rem 0;
+}
+
+h1,
+p {
+    text-align: center;
 }
 
 .first-section {
     background-color: $primary;
-    h1,
-    p {
-        text-align: center;
-    }
+
     .logo {
         width: 190px;
         height: 43px;
@@ -46,11 +48,51 @@ section {
     }
 }
 
+.second-section {
+    .title-black {
+        margin-bottom: 1.5rem;
+    }
+    .routine-img-1 {
+        margin-top: 2rem;
+        width: 13.25rem;
+        height: 28.5rem;
+    }
+    .routine-img-2 {
+        margin-top: 2rem;
+        width: 13.188rem;
+        height: 7.75rem;
+    }
+}
+
+.third-section {
+    background-color: #f0f1ff;
+    p {
+        margin-top: 1.6rem;
+    }
+    .friend-img {
+        width: 20rem;
+        height: auto;
+        margin-top: 4rem;
+    }
+}
+
+.fourth-section {
+    p {
+        margin-top: 1.6rem;
+    }
+
+    .phone-habit-img {
+        margin-top: 3rem;
+        width: 13rem;
+        height: auto;
+    }
+}
+
 .title-white {
     font-size: 1.5rem;
     font-weight: 700;
     color: $white;
-    line-height: 1.313rem;
+    line-height: 2rem;
     letter-spacing: 0.15 px;
 }
 
@@ -65,7 +107,7 @@ section {
     font-size: 1.5rem;
     font-weight: 700;
     color: $black;
-    line-height: 1.313rem;
+    line-height: 2rem;
     letter-spacing: 0.15 px;
 }
 

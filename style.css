@@ -339,13 +339,14 @@ ol {
   padding-left: 0; }
 
 section {
-  padding: 2rem 0; }
+  padding: 3rem 0; }
+
+h1,
+p {
+  text-align: center; }
 
 .first-section {
   background-color: #6b76ff; }
-  .first-section h1,
-  .first-section p {
-    text-align: center; }
   .first-section .logo {
     width: 190px;
     height: 43px;
@@ -367,11 +368,41 @@ section {
   .first-section .button-center a:last-child {
     margin-top: 0.5rem; }
 
+.second-section .title-black {
+  margin-bottom: 1.5rem; }
+
+.second-section .routine-img-1 {
+  margin-top: 2rem;
+  width: 13.25rem;
+  height: 28.5rem; }
+
+.second-section .routine-img-2 {
+  margin-top: 2rem;
+  width: 13.188rem;
+  height: 7.75rem; }
+
+.third-section {
+  background-color: #f0f1ff; }
+  .third-section p {
+    margin-top: 1.6rem; }
+  .third-section .friend-img {
+    width: 20rem;
+    height: auto;
+    margin-top: 4rem; }
+
+.fourth-section p {
+  margin-top: 1.6rem; }
+
+.fourth-section .phone-habit-img {
+  margin-top: 3rem;
+  width: 13rem;
+  height: auto; }
+
 .title-white {
   font-size: 1.5rem;
   font-weight: 700;
   color: #ffffff;
-  line-height: 1.313rem;
+  line-height: 2rem;
   letter-spacing: 0.15 px; }
 
 .desc-white {
@@ -384,7 +415,7 @@ section {
   font-size: 1.5rem;
   font-weight: 700;
   color: #2e3a59;
-  line-height: 1.313rem;
+  line-height: 2rem;
   letter-spacing: 0.15 px; }
 
 .desc-black {
