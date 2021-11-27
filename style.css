@@ -341,16 +341,20 @@ ol {
 section {
   padding: 3rem 0; }
 
-h1,
-p {
-  text-align: center; }
+.logo {
+  width: auto;
+  height: 2rem;
+  margin-bottom: 2rem; }
+
+.store-btn {
+  width: auto;
+  height: 3.5rem; }
 
 .first-section {
   background-color: #6b76ff; }
-  .first-section .logo {
-    width: 190px;
-    height: 43px;
-    margin-bottom: 2rem; }
+  .first-section h1,
+  .first-section p {
+    text-align: center; }
   .first-section h1 {
     margin-bottom: 24px; }
   .first-section .btn-download {
@@ -373,13 +377,21 @@ p {
 
 .second-section .routine-img-1 {
   margin-top: 2rem;
-  width: 13.25rem;
+  width: 14.2rem;
   height: 28.5rem; }
 
 .second-section .routine-img-2 {
   margin-top: 2rem;
   width: 13.188rem;
   height: 7.75rem; }
+
+.second-section h1,
+.second-section p {
+  text-align: center; }
+  @media screen and (min-width: 1000px) {
+    .second-section h1,
+    .second-section p {
+      text-align: left; } }
 
 .third-section {
   background-color: #f0f1ff; }
@@ -389,14 +401,32 @@ p {
     width: 20rem;
     height: auto;
     margin-top: 4rem; }
+  .third-section h1,
+  .third-section p {
+    text-align: center; }
+    @media screen and (min-width: 1000px) {
+      .third-section h1,
+      .third-section p {
+        text-align: left; } }
 
 .fourth-section p {
   margin-top: 1.6rem; }
 
-.fourth-section .phone-habit-img {
+.phone-habit-img {
   margin-top: 3rem;
   width: 13rem;
   height: auto; }
+
+.fifth-section {
+  background-color: #f0f1ff; }
+  .fifth-section .phone-chat-img {
+    margin-top: 3rem;
+    width: 13rem;
+    height: auto; }
+
+footer {
+  background-color: #6b76ff;
+  padding: 2.5rem 0; }
 
 .title-white {
   font-size: 1.5rem;
@@ -434,9 +464,16 @@ p {
     height: 3rem;
     background-color: #ffffff;
     border-radius: 25.7143px; }
-  .button-center img {
-    height: 3.5rem; }
 
-.logo {
-  width: 1.5rem;
-  height: 1.1rem; }
+.media-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  align-items: center; }

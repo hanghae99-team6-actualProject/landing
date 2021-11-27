@@ -8,19 +8,24 @@ section {
     padding: 3rem 0;
 }
 
-h1,
-p {
-    text-align: center;
+.logo {
+    width: auto;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.store-btn {
+    width: auto;
+    height: 3.5rem;
 }
 
 .first-section {
     background-color: $primary;
-
-    .logo {
-        width: 190px;
-        height: 43px;
-        margin-bottom: 2rem;
+    h1,
+    p {
+        text-align: center;
     }
+
     h1 {
         margin-bottom: 24px;
     }
@@ -54,13 +59,20 @@ p {
     }
     .routine-img-1 {
         margin-top: 2rem;
-        width: 13.25rem;
+        width: 14.2rem;
         height: 28.5rem;
     }
     .routine-img-2 {
         margin-top: 2rem;
         width: 13.188rem;
         height: 7.75rem;
+    }
+    h1,
+    p {
+        text-align: center;
+        @media screen and (min-width: 1000px) {
+            text-align: left;
+        }
     }
 }
 
@@ -74,18 +86,38 @@ p {
         height: auto;
         margin-top: 4rem;
     }
+    h1,
+    p {
+        text-align: center;
+        @media screen and (min-width: 1000px) {
+            text-align: left;
+        }
+    }
 }
 
 .fourth-section {
     p {
         margin-top: 1.6rem;
     }
+}
+.phone-habit-img {
+    margin-top: 3rem;
+    width: 13rem;
+    height: auto;
+}
 
-    .phone-habit-img {
+.fifth-section {
+    background-color: #f0f1ff;
+    .phone-chat-img {
         margin-top: 3rem;
         width: 13rem;
         height: auto;
     }
+}
+
+footer {
+    background-color: $primary;
+    padding: 2.5rem 0;
 }
 
 .title-white {
@@ -126,12 +158,14 @@ p {
         background-color: $white;
         border-radius: 25.7143px;
     }
-    img {
-        height: 3.5rem;
-    }
 }
 
-.logo {
-    width: 1.5rem;
-    height: 1.1rem;
+.media-center {
+    @include column-flexbox();
+}
+
+.center {
+    @include flexbox();
+    justify-content: center;
+    align-items: center;
 }
