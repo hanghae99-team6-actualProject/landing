@@ -99,6 +99,13 @@ section {
     p {
         margin-top: 1.6rem;
     }
+    h1,
+    p {
+        text-align: center;
+        @media screen and (min-width: 1000px) {
+            text-align: left;
+        }
+    }
 }
 .phone-habit-img {
     margin-top: 3rem;
@@ -112,6 +119,13 @@ section {
         margin-top: 3rem;
         width: 13rem;
         height: auto;
+    }
+    h1,
+    p {
+        text-align: center;
+        @media screen and (min-width: 1000px) {
+            text-align: left;
+        }
     }
 }
 

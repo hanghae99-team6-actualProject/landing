@@ -412,6 +412,14 @@ section {
 .fourth-section p {
   margin-top: 1.6rem; }
 
+.fourth-section h1,
+.fourth-section p {
+  text-align: center; }
+  @media screen and (min-width: 1000px) {
+    .fourth-section h1,
+    .fourth-section p {
+      text-align: left; } }
+
 .phone-habit-img {
   margin-top: 3rem;
   width: 13rem;
@@ -423,6 +431,13 @@ section {
     margin-top: 3rem;
     width: 13rem;
     height: auto; }
+  .fifth-section h1,
+  .fifth-section p {
+    text-align: center; }
+    @media screen and (min-width: 1000px) {
+      .fifth-section h1,
+      .fifth-section p {
+        text-align: left; } }
 
 footer {
   background-color: #6b76ff;
