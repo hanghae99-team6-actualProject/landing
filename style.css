@@ -17,7 +17,8 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif; }
 
 /**
  * Render the `main` element consistently in IE.
@@ -307,7 +308,8 @@ template {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif; }
 
 h1 {
   margin: 0; }
@@ -359,11 +361,14 @@ section {
     margin-bottom: 24px; }
   .first-section .btn-download {
     margin-top: 3rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 0.5rem;
+    color: #6b76ff; }
+    .first-section .btn-download:last-child {
+      margin-top: 1rem !important; }
   .first-section .main-img {
     width: 13.25rem;
     height: 27rem;
-    margin-top: 5rem;
+    margin-top: 4.5rem;
     margin-bottom: 2.6rem; }
   .first-section strong {
     margin-bottom: 5rem; }
