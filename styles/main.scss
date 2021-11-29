@@ -17,6 +17,11 @@ section {
 .store-btn {
     width: auto;
     height: 3.5rem;
+    opacity: 70%;
+    &:hover,
+    &:active {
+        cursor: not-allowed;
+    }
 }
 
 .first-section {
@@ -31,11 +36,18 @@ section {
     }
 
     .btn-download {
-        margin-top: 3rem;
+        margin-top: 0.1rem;
         margin-bottom: 0.5rem;
         color: $primary;
-        &:last-child {
-            margin-top: 1rem !important;
+        margin-bottom: 2rem !important;
+        border: none;
+        transition: background-color 200ms ease-in-out;
+        transition: color 200ms ease-in-out;
+        &:active,
+        &:hover {
+            border: 1px solid $white;
+            background-color: $primary;
+            color: $white;
         }
     }
     .main-img {
