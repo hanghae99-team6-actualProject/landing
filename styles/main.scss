@@ -36,6 +36,7 @@ section {
     }
 
     .btn-download {
+        width: 90vw;
         margin-top: 0.1rem;
         margin-bottom: 0.5rem;
         color: $primary;
@@ -49,6 +50,10 @@ section {
             background-color: $primary;
             color: $white;
         }
+        i {
+            margin-right: 2rem;
+        }
+        max-width: 400px;
     }
     .main-img {
         width: 13.25rem;

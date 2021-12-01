@@ -363,17 +363,21 @@ section {
   .first-section h1 {
     margin-bottom: 24px; }
   .first-section .btn-download {
+    width: 90vw;
     margin-top: 0.1rem;
     margin-bottom: 0.5rem;
     color: #6b76ff;
     margin-bottom: 2rem !important;
     border: none;
     transition: background-color 200ms ease-in-out;
-    transition: color 200ms ease-in-out; }
+    transition: color 200ms ease-in-out;
+    max-width: 400px; }
     .first-section .btn-download:active, .first-section .btn-download:hover {
       border: 1px solid #ffffff;
       background-color: #6b76ff;
       color: #ffffff; }
+    .first-section .btn-download i {
+      margin-right: 2rem; }
   .first-section .main-img {
     width: 13.25rem;
     height: 27rem;
