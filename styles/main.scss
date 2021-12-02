@@ -50,9 +50,7 @@ section {
             background-color: $primary;
             color: $white;
         }
-        i {
-            margin-right: 2rem;
-        }
+
         max-width: 400px;
     }
     .main-img {
@@ -168,6 +166,12 @@ footer {
     color: $white;
     letter-spacing: 0.15 px;
     line-height: 1.313rem;
+}
+
+.a-center {
+    width: 100%;
+    text-align: left !important;
+    max-width: 400px;
 }
 
 .title-black {

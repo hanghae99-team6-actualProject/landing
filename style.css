@@ -376,8 +376,6 @@ section {
       border: 1px solid #ffffff;
       background-color: #6b76ff;
       color: #ffffff; }
-    .first-section .btn-download i {
-      margin-right: 2rem; }
   .first-section .main-img {
     width: 13.25rem;
     height: 27rem;
@@ -473,6 +471,11 @@ footer {
   color: #ffffff;
   letter-spacing: 0.15 px;
   line-height: 1.313rem; }
+
+.a-center {
+  width: 100%;
+  text-align: left !important;
+  max-width: 400px; }
 
 .title-black {
   font-size: 1.5rem;
