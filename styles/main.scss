@@ -8,6 +8,12 @@ section {
     padding: 3rem 0;
 }
 
+@media screen and (min-width: 1000px) {
+    .margin-a {
+        margin-left: 1.5rem;
+    }
+}
+
 .logo {
     width: auto;
     height: 2rem;
@@ -196,6 +202,56 @@ footer {
         height: 3rem;
         background-color: $white;
         border-radius: 25.7143px;
+    }
+}
+
+.button-left {
+    @include column-flexbox();
+    button {
+        width: 12.563rem;
+        height: 3rem;
+        background-color: $white;
+        border-radius: 25.7143px;
+    }
+    @media screen and (min-width: 1000px) {
+        @include column-flexbox(start, start);
+        button {
+            width: 12.563rem;
+            height: 3rem;
+            background-color: $white;
+            border-radius: 25.7143px;
+        }
+    }
+}
+
+.button-right {
+    @include column-flexbox();
+    button {
+        width: 12.563rem;
+        height: 3rem;
+        background-color: $white;
+        border-radius: 25.7143px;
+    }
+    @media screen and (min-width: 1000px) {
+        @include column-flexbox(end, end);
+        button {
+            width: 12.563rem;
+            height: 3rem;
+            background-color: $white;
+            border-radius: 25.7143px;
+        }
+    }
+}
+
+.desc-right {
+    @media screen and (min-width: 1000px) {
+        text-align: right !important;
+    }
+}
+
+.desc-center {
+    @media screen and (min-width: 1000px) {
+        text-align: center !important;
     }
 }
 

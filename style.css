@@ -343,6 +343,10 @@ ol {
 section {
   padding: 3rem 0; }
 
+@media screen and (min-width: 1000px) {
+  .margin-a {
+    margin-left: 1.5rem; } }
+
 .logo {
   width: auto;
   height: 2rem;
@@ -500,6 +504,58 @@ footer {
     height: 3rem;
     background-color: #ffffff;
     border-radius: 25.7143px; }
+
+.button-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .button-left button {
+    width: 12.563rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 25.7143px; }
+  @media screen and (min-width: 1000px) {
+    .button-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start; }
+      .button-left button {
+        width: 12.563rem;
+        height: 3rem;
+        background-color: #ffffff;
+        border-radius: 25.7143px; } }
+
+.button-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .button-right button {
+    width: 12.563rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 25.7143px; }
+  @media screen and (min-width: 1000px) {
+    .button-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end; }
+      .button-right button {
+        width: 12.563rem;
+        height: 3rem;
+        background-color: #ffffff;
+        border-radius: 25.7143px; } }
+
+@media screen and (min-width: 1000px) {
+  .desc-right {
+    text-align: right !important; } }
+
+@media screen and (min-width: 1000px) {
+  .desc-center {
+    text-align: center !important; } }
 
 .media-center {
   display: flex;
